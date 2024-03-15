@@ -38,7 +38,7 @@ To use the `/stock-update` endpoint, send a POST request with a JSON array of ob
 If your JSON data is in a file:
 
 ```bash
-curl -X POST -H "Content-Type: application/json" -d @your-file.json http://localhost:3000/stock-update
+curl -X POST -H "Content-Type: application/json" -d @your-file.json https://stock-update-app.fly.dev/stock-update
 ```
 
 Replace `your-file.json` with the path to your JSON file.
@@ -46,14 +46,14 @@ Replace `your-file.json` with the path to your JSON file.
 If your JSON data is in your clipboard:
 
 ```bash
-curl -X POST -H "Content-Type: application/json" -d 'your-json-data' http://localhost:3000/stock-update
+curl -X POST -H "Content-Type: application/json" -d 'your-json-data' https://stock-update-app.fly.dev/stock-update
 ```
 
 Replace `your-json-data` with your JSON data.
 
 ### Postman
 
-Set the request method to POST, the request URL to `http://localhost:3000/stock-update`, the body type to raw JSON, and paste your JSON data into the body.
+Set the request method to POST, the request URL to `https://stock-update-app.fly.dev/stock-update`, the body type to raw JSON, and paste your JSON data into the body.
 
 ## Response
 
