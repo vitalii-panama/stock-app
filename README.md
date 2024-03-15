@@ -1,4 +1,3 @@
-Here's the raw content for your README.md file:
 
 ```markdown
 # Stock Update API
