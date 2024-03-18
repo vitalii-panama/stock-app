@@ -11,9 +11,9 @@ app.use(bodyParser.json());
 
 
 const shopify = new Shopify({
-	shopName: "407d25",
-	apiKey: "a04d5064bad90a84cbb2472a3bfd4d38",
-	password: "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"
+	shopName: "",
+	apiKey: "",
+	password: ""
 });
 
 app.post('/stock-update', async (req, res) => {
