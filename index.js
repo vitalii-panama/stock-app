@@ -3,7 +3,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const Shopify = require('shopify-api-node');
-
+require('dotenv').config()
 const app = express();
 
 // Use body-parser middleware to parse incoming JSON data
