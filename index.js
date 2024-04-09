@@ -11,9 +11,9 @@ app.use(bodyParser.json());
 
 
 const shopify = new Shopify({
-	shopName: "",
-	apiKey: "",
-	password: ""
+	shopName: process.env.shopName,
+	apiKey: process.env.apiKey,
+	password: process.env.password
 });
 
 app.post('/stock-update', async (req, res) => {
